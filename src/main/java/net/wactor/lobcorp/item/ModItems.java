@@ -12,13 +12,13 @@ import net.wactor.lobcorp.LobCorp;
 public class ModItems {
 
     public static final Item Penitence_weapon = registerItem("penitence_weapon",new Item(new Item.Settings()));
-
-
+    public static final Item Penitence_suit = registerItem("penitence_suit",new Item(new Item.Settings()));
+    public static final Item Penitence_gift = registerItem("penitence_gift",new Item(new Item.Settings()));
     private static Item registerItem(String name,Item item){
         return Registry.register(Registries.ITEM, Identifier.of(LobCorp.MOD_ID,name),item);
     }
     public  static void registerModItem(){
-        LobCorp.LOGGER.info("Registering mod items for"+LobCorp.MOD_ID);
+        LobCorp.LOGGER.info("Registering mod items for "+LobCorp.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(entries -> {
             entries.add(Penitence_weapon);

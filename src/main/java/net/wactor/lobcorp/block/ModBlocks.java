@@ -13,7 +13,9 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.wactor.lobcorp.LobCorp;
 
+
 public class ModBlocks {
+
 
     public static final Block E_BOX_BLOCK = registerBlock("e_box_block",
             new Block(AbstractBlock.Settings.create()
@@ -32,7 +34,7 @@ public class ModBlocks {
     }
 
     public static void registerModBlocks(){
-        LobCorp.LOGGER.info("Registering Mod Blocks for"+ LobCorp.MOD_ID);
+        LobCorp.LOGGER.info("Registering Mod Blocks for "+ LobCorp.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FUNCTIONAL).register(entries -> {
             entries.add(ModBlocks.E_BOX_BLOCK);

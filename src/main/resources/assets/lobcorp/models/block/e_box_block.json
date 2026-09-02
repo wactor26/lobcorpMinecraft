@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "lobcorp:block/e_box_block"
+    "all": "lobcorp:block/e_box_block_side"
   }
 }

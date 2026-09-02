@@ -5,6 +5,7 @@ import net.fabricmc.api.ModInitializer;
 import net.minecraft.util.Identifier;
 
 import net.wactor.lobcorp.block.ModBlocks;
+import net.wactor.lobcorp.item.ModItemGroups;
 import net.wactor.lobcorp.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -15,6 +16,7 @@ public class LobCorp implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
 		ModItems.registerModItem();
 		ModBlocks.registerModBlocks();
 	}

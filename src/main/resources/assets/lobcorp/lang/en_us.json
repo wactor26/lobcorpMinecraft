@@ -1,5 +1,11 @@
 {
   "item.lobcorp.penitence_weapon": "Penitence",
+  "item.lobcorp.penitence_suit": "Penitence",
+  "item.lobcorp.penitence_gift": "Penitence",
 
-  "block.lobcorp.e_box_block": "Enkephalin Box"
+  "block.lobcorp.e_box_block": "Enkephalin Box",
+
+  "itemgroup.lobcorp.ego_weapon_group": "Ego Weapons",
+  "itemgroup.lobcorp.ego_suit_group": "Ego Suits",
+  "itemgroup.lobcorp.ego_gift_group": "Ego Gifts"
 }
