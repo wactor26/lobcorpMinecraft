@@ -23,6 +23,12 @@ public class ModBlocks {
                     .sounds(BlockSoundGroup.COPPER)
                     .pistonBehavior(PistonBehavior.DESTROY)));
 
+    public static final Block CAUTION_STRIPE_BLOCK = registerBlock("caution_stripe_block",
+            new Block(AbstractBlock.Settings.create()
+                    .breakInstantly()
+                    .sounds(BlockSoundGroup.COPPER)
+                    .pistonBehavior(PistonBehavior.DESTROY)));
+
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK,Identifier.of(LobCorp.MOD_ID, name),block);

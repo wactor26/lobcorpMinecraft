@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "lobcorp:block/caution_stripe_block"
+    }
+  }
+}
