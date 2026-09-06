@@ -1,8 +1,15 @@
 {
+  "item.lobcorp.tile_powder": "Tile Powder",
   "item.lobcorp.penitence_weapon": "Penitence",
   "item.lobcorp.penitence_suit": "Penitence",
   "item.lobcorp.penitence_gift": "Penitence",
 
+  "block.lobcorp.tile_white": "White Tile",
+  "block.lobcorp.tile_gray": "Gray Tile",
+  "block.lobcorp.tile_control": "Control Team Tile",
+  "block.lobcorp.tile_information": "Information Team Tile",
+  "block.lobcorp.tile_gray": "Gray Tile",
+  "block.lobcorp.tile_gray": "Gray Tile",
   "block.lobcorp.e_box_block": "Enkephalin Box",
   "block.lobcorp.caution_stripe_block": "Caution Block",
 

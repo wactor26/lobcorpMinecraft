@@ -11,6 +11,7 @@ import net.wactor.lobcorp.LobCorp;
 
 public class ModItems {
 
+    public static final Item Tile_powder = registerItem("tile_powder",new Item(new Item.Settings()));
     public static final Item Penitence_weapon = registerItem("penitence_weapon",new Item(new Item.Settings()));
     public static final Item Penitence_suit = registerItem("penitence_suit",new Item(new Item.Settings()));
     public static final Item Penitence_gift = registerItem("penitence_gift",new Item(new Item.Settings()));
@@ -23,5 +24,10 @@ public class ModItems {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(entries -> {
             entries.add(Penitence_weapon);
         });
+
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
+            entries.add(Tile_powder);
+        });
+
     }
 }
