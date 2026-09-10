@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "lobcorp:block/tile_safety"
+    }
+  }
+}

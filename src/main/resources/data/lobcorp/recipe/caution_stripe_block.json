@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "lobcorp:tile_powder"
+    },
+    "$": {
+      "item": "minecraft:yellow_dye"
+    },
+    "@": {
+      "item": "minecraft:black_dye"
+    }
+  },
+  "pattern": [
+    "@$@",
+    "$#$",
+    "@$@"
+  ],
+  "result": {
+    "count": 8,
+    "id": "lobcorp:caution_stripe_block"
+  }
+}

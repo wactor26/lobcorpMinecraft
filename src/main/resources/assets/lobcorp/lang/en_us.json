@@ -8,8 +8,8 @@
   "block.lobcorp.tile_gray": "Gray Tile",
   "block.lobcorp.tile_control": "Control Team Tile",
   "block.lobcorp.tile_information": "Information Team Tile",
-  "block.lobcorp.tile_gray": "Gray Tile",
-  "block.lobcorp.tile_gray": "Gray Tile",
+  "block.lobcorp.tile_training": "Training Team Tile",
+  "block.lobcorp.tile_safety": "Safety Team Tile",
   "block.lobcorp.e_box_block": "Enkephalin Box",
   "block.lobcorp.caution_stripe_block": "Caution Block",
 
