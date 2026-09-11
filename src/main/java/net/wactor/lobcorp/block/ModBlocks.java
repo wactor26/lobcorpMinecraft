@@ -54,9 +54,8 @@ public class ModBlocks {
 
     public static final Block CAUTION_STRIPE_BLOCK = registerBlock("caution_stripe_block",
             new Block(AbstractBlock.Settings.create()
-                    .breakInstantly()
                     .sounds(BlockSoundGroup.COPPER)
-                    .pistonBehavior(PistonBehavior.DESTROY)));
+                    .strength(4,10)));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
@@ -77,6 +76,15 @@ public class ModBlocks {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
             entries.add(ModBlocks.CAUTION_STRIPE_BLOCK);
+            entries.add(ModBlocks.TILE_CONTROL);
+            entries.add(ModBlocks.TILE_INFORMATION);
+            entries.add(ModBlocks.TILE_TRAINING);
+            entries.add(ModBlocks.TILE_SAFETY);
+            entries.add(ModBlocks.TILE_WHITE);
+            entries.add(ModBlocks.TILE_GRAY);
+        });
+
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(entries -> {
             entries.add(ModBlocks.TILE_CONTROL);
             entries.add(ModBlocks.TILE_INFORMATION);
             entries.add(ModBlocks.TILE_TRAINING);

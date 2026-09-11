@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "lobcorp:tile_control",
+    "lobcorp:tile_information",
+    "lobcorp:tile_training",
+    "lobcorp:tile_safety",
+    "lobcorp:tile_white",
+    "lobcorp:tile_gray",
+    "lobcorp:caution_stripe_block",
+    "lobcorp:tile_gray"
+  ]
+}
